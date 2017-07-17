@@ -1,0 +1,360 @@
+#container{
+	width:100%;
+	height:auto;
+	background-color:cadetblue;
+}
+
+#nav{
+	width:100%;
+	height:auto;
+	background-color:white;
+	margin-bottom:50px;
+	border-bottom:5px solid silver;
+	box-shadow:0px 5px 20px darkcyan;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.about{
+	margin-left:34%;
+}
+
+li a {
+	float:left;
+    display:block;
+    color: #A8A8A8;
+    text-align: center;
+    padding: 33px 16px;
+    text-decoration: none;
+    font-size:15px;
+    font-family:"Times News Roman",Helvetica,Arial;
+}
+
+
+li a:hover:not(.active) {
+    background-color:darkcyan;
+}
+
+li a:hover{
+	color:white;
+}
+
+.active {
+	margin-left:150px;
+    background-color: darkcyan;
+    color:white;
+    font-size:30px;
+    padding: 25px 16px;
+    font-family:"Times News Roman",Helvetica,Arial;
+}
+
+#about-box{
+	width:960px;
+	height:380px;
+	background-color:white;
+	border-radius:20px;
+	margin: 0 auto;
+}
+
+#hr-one{
+	width:620px;
+}
+
+#inner{
+	width:650px;
+	height:auto;
+	background-color:none;
+	float:left;
+}
+
+h1{
+	font-size:40px;
+	font-family:"Times News Roman",Helvetica, Arial;
+	color:darkcyan;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+img{
+	float:left;
+	width:250px;
+	height:175px;
+	margin-right:15px;
+	margin-bottom:15px;
+	margin-left:15px;
+}
+
+p{
+	line-height:18px;
+	margin-left:20px;
+	margin-top:20px;
+	font-family:"Times News Roman",Helvetica, Arial;
+	font-size:16px;
+}
+
+#connect{
+	width:250px;
+	height:200px;
+	background-color:lemonchiffon;
+	float:left;
+	margin-left:30px;
+	margin-top:15px;
+}
+
+#hr-two{
+	width:225px;
+	margin-top:15px;
+	margin-bottom:25px;
+}
+
+#connectwithme{
+	font-size:25px;
+	font-family:"Times News Roman",Helvetica, Arial;
+	color:darkcyan;
+	margin-left:20px;
+	margin-top:15px;
+}
+
+.linky{
+	margin:0 0 0 20px;
+	width:60px;
+	height:60px;
+}
+
+.git{
+	margin:0 0 0 15px;
+	width:60px;
+	height:60px;
+}
+
+.stack{
+	margin:0 0 0 15px;
+	width:60px;
+	height:60px;
+}
+
+#footer{
+	width:100%;
+	height:5em;
+	background-color:#696969;
+	margin-top:70px;
+	border-top:5px solid darkcyan;
+}
+
+span{
+	margin-top:3em;
+	display:block;
+	text-align:center;
+	font-family:"Times News Roman",Helvetica,Arial;
+	font-size:12px;
+	color:silver;
+}
+
+
+
+
+/*Contact page Css below */
+
+ form{
+ 	margin-left:25px;
+ }
+
+ input{
+ 	margin-top:10px;
+ 	margin-bottom:10px;
+ }
+
+#contact-div{
+	min-height:430px;
+	width:960px;
+	background-color:white;
+	border-radius:20px;
+	margin: 0 auto;
+}
+
+textarea{
+	margin-top:10px;
+}
+
+
+
+/*Portfolio page CSS below*/
+
+#portfolio-container{
+	width:960px;
+	height:650px;
+	background-color:white;
+	border-radius:20px;
+	margin: 0 auto;
+}
+
+#portfolio-inner{
+	width:650px;
+	height:auto;
+	background-color:none;
+	float:left;
+}
+
+.port-box{
+	width:300px;
+	height:250px;
+	background-color:none;
+	float:left;
+	margin:15px 0 10px 15px;
+	border: 1px solid black;
+}
+
+.port-img{
+	height:170px;
+	width:300px;
+	margin:0;
+	padding:0;
+}
+
+.heading{
+	text-align:center;
+	margin-top: 200px;
+	font-family: "Times News Roman",Helvetica,Arial;
+	color:darkcyan;
+	font-size:25px;
+}
+
+
+
+/*Media Query code */
+@media screen and (max-width: 768px){
+
+#about-box{
+	height:auto;
+	float:none;
+	background-color:none;
+	width:100%;
+	padding: 5% 0;
+}
+
+#inner{
+	background-color:none;
+	float:none;
+	display:block;
+	margin: 0 auto;
+}
+
+#connect{
+	float:none;
+	display:block;
+	margin:5% auto;
+	padding:2% 2%;
+}
+
+li .active {
+	margin:0;
+	 display:inline-block;
+    background-color:darkcyan;
+    color:white;
+    font-size:30px;
+    padding: 5% 2%;
+    font-family:"Times News Roman",Helvetica,Arial;
+    width:100%;
+}
+
+li .about{
+	margin-left:0;
+}
+
+#nav{
+	width:100%;
+	height:auto;
+	background-color:white;
+	margin-bottom:10%;
+	border-bottom:5px solid silver;
+	box-shadow:0px 5px 20px darkcyan;
+}
+
+li a {
+	width:100%;
+	background-color:none;
+	float:none;
+    display: inline-block;
+    color: #A8A8A8;
+    text-align: center;
+    padding: 33px 16px;
+    text-decoration: none;
+    font-size:15px;
+    font-family:"Times News Roman",Helvetica,Arial;
+}
+
+#nav li{
+	float:none;
+}
+
+/*Contact Media Query code*/
+
+#contact-div{
+	height:auto;
+	float:none;
+	background-color:none;
+	width:100%;
+	padding: 5% 0;
+}
+
+ form{
+ 	margin:0 0 0 1%;
+ }
+
+ input{
+ 	margin-top:10px;
+ 	margin-bottom:10px;
+ }
+
+textarea{
+	margin-top:10px;
+	width:100%;
+	margin-right:5%;
+}
+
+/*Portfolio media query code*/
+
+#portfolio-container{
+	width:100%;
+	height:auto;
+	background-color:white;
+	border-radius:20px;
+	margin: 0 auto;
+}
+
+#portfolio-inner{
+	width:100%;
+	height:auto;
+	background-color:none;
+	float:none;
+}
+
+.port-box{
+	width:100%;
+	height:250px;
+	background-color:none;
+	float:none;
+	margin:0 auto;
+	border: 1px solid black;
+}
+
+.port-img{
+	height:75%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.heading{
+	text-align:center;
+	margin-top: 200px;
+	font-family: "Times News Roman",Helvetica,Arial;
+	color:darkcyan;
+	font-size:25px;
+}
+}
